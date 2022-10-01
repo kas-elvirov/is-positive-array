@@ -5,15 +5,15 @@ import isPositiveArray from '../index';
 
 interface IData {
   arrays: {
-    valid: Array<[unknown, ReturnType<typeof isPositiveArray>]>,
-    invalid: Array<[unknown, ReturnType<typeof isPositiveArray>]>,
-    positive: Array<[unknown, ReturnType<typeof isPositiveArray>]>,
-    negative: Array<[unknown, ReturnType<typeof isPositiveArray>]>,
-  },
+    valid: Array<[unknown, ReturnType<typeof isPositiveArray>]>;
+    invalid: Array<[unknown, ReturnType<typeof isPositiveArray>]>;
+    positive: Array<[unknown, ReturnType<typeof isPositiveArray>]>;
+    negative: Array<[unknown, ReturnType<typeof isPositiveArray>]>;
+  };
   strings: {
-    valid: Array<[unknown, ReturnType<typeof isPositiveArray>]>,
-    invalid: Array<[unknown, ReturnType<typeof isPositiveArray>]>,
-  },
+    valid: Array<[unknown, ReturnType<typeof isPositiveArray>]>;
+    invalid: Array<[unknown, ReturnType<typeof isPositiveArray>]>;
+  };
 }
 
 const data: IData = {
