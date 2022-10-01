@@ -1,5 +1,5 @@
 {
-  "name": "@kas-elvirov/is-positive-array",
+  "name": "is-positive-array",
   "version": "1.0.0",
   "description": "Checks whether a value is an array with more than zero items",
   "license": "MIT",
