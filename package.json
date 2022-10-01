@@ -1,0 +1,48 @@
+{
+  "name": "@kas-elvirov/is-positive-array",
+  "version": "1.0.0",
+  "description": "Checks whether a value is an array with more than zero items",
+  "license": "MIT",
+  "homepage": "https://github.com/kas-elvirov/is-positive-array#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kas-elvirov/is-positive-array.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kas-elvirov/is-positive-array/issues"
+  },
+  "keywords": [
+    "array"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "authors": [
+    "Kas Elvirov <kas.elvirov@gmail.com> (https://github.com/kas-elvirov)"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn version-patch:up",
+      "pre-push": "yarn test"
+    }
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --declaration",
+    "--- VERSIONING ---": "",
+    "version-patch:up": "npm version patch --no-git-tag-version --force && git add package.json package-lock.json",
+    "version-minor:up": "npm version minor --no-git-tag-version --force && git add package.json package-lock.json",
+    "version-major:up": "npm version major --no-git-tag-version --force && git add package.json package-lock.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "@types/node": "^14.0.20",
+    "babel-minify": "^0.5.1",
+    "expect": "^26.6.2",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "jest-each": "^26.6.2",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {}
+}
