@@ -1,6 +1,6 @@
 {
   "name": "is-positive-array",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Checks whether a value is an array with more than zero items",
   "license": "MIT",
   "homepage": "https://github.com/kas-elvirov/is-positive-array#readme",
@@ -14,8 +14,23 @@
   "keywords": [
     "array"
   ],
-  "main": "index.js",
-  "types": "index.d.ts",
+  "files": [
+    "dist",
+    "lib",
+    "es",
+    "src",
+    "index.d.ts"
+  ],
+  "main": "lib/is-positive-array.js",
+  "module": "es/is-positive-array.js",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
   "authors": [
     "Kas Elvirov <kas.elvirov@gmail.com> (https://github.com/kas-elvirov)"
   ],
@@ -32,7 +47,7 @@
     "test": "jest",
     "test:w": "jest --watchAll",
     "build-types": "tsc --emitDeclarationOnly --declaration",
-    "build": "npm run build-types && rollup -c",
+    "build": "rollup -c",
     "precommit": "npm run test && npm run version-patch:up",
     "pretest": "npm run build",
     "prepare": "husky install",
