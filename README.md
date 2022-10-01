@@ -31,8 +31,6 @@ Type: `unknown`
 ```js
     import isPositiveArray from 'is-positive-array';
     // or
-    import { isPositiveArray } from 'is-positive-array';
-    // or
     var isPositiveArray = require('is-positive-array');
 ```
 

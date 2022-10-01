@@ -8,8 +8,4 @@ function isPositiveArray(incomingValue: unknown): boolean {
     && incomingValue.length > 0;
 }
 
-export {
-  isPositiveArray,
-};
-
 export default isPositiveArray;
