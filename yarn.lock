@@ -890,6 +890,16 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
+"@typescript-eslint/parser@^5.50.0":
+  version "5.50.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.50.0.tgz#a33f44b2cc83d1b7176ec854fbecd55605b0b032"
+  integrity sha512-KCcSyNaogUDftK2G9RXfQyOCt51uB5yqC6pkUYqhYh8Kgt+DwR5M0EwEAxGPy/+DH6hnmKeGsNhiZRQxjH71uQ==
+  dependencies:
+    "@typescript-eslint/scope-manager" "5.50.0"
+    "@typescript-eslint/types" "5.50.0"
+    "@typescript-eslint/typescript-estree" "5.50.0"
+    debug "^4.3.4"
+
 "@typescript-eslint/scope-manager@5.50.0":
   version "5.50.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-5.50.0.tgz#90b8a3b337ad2c52bbfe4eac38f9164614e40584"

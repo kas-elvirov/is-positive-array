@@ -1,6 +1,6 @@
 {
   "name": "is-positive-array",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Checks whether a value is an array with more than zero items",
   "license": "MIT",
   "homepage": "https://github.com/kas-elvirov/is-positive-array#readme",
@@ -65,6 +65,7 @@
     "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
     "@typescript-eslint/eslint-plugin-tslint": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
     "esbuild": "^0.17.5",
     "eslint": "7.26.0",
     "expect": "^26.6.2",
