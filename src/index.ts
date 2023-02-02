@@ -3,7 +3,7 @@
  * @param {unknown} incomingValue Value to check
  * @return {boolean}
 */
-function isPositiveArray(incomingValue: unknown): boolean {
+function isPositiveArray<T>(incomingValue: T): boolean {
   return Array.isArray(incomingValue)
     && incomingValue.length > 0;
 }
