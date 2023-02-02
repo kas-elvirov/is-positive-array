@@ -1,6 +1,6 @@
 {
   "name": "is-positive-array",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Checks whether a value is an array with more than zero items",
   "license": "MIT",
   "homepage": "https://github.com/kas-elvirov/is-positive-array#readme",
@@ -21,8 +21,9 @@
     "src",
     "index.d.ts"
   ],
-  "main": "lib/is-positive-array.js",
-  "module": "es/is-positive-array.js",
+  "main": "dist/is-positive-array.js",
+  "module": "dist/is-positive-array.mjs",
+  "typings": "dist/is-positive-array.d.ts",
   "npmFileMap": [
     {
       "basePath": "/dist/",
